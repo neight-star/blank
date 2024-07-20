@@ -1,0 +1,10 @@
+
+
+git init
+git add .  # 将所有文件添加到暂存区，或者使用 git add 文件名 来添加特定文件
+git commit -m "Initial commit"  # -m 后面跟的是提交信息，用于描述这次提交的内容
+git remote add origin https://github.com/neight-star/blank.git
+
+git remote set-url origin git@github.com:neight-star/blank.git
+
+ git push -u origin main
